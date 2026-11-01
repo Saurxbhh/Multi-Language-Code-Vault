@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MyCardView"
+         android:padding="10dp"
+        android:background="@color/bg_page"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardElevation="2dp">
+
+    <LinearLayout
+        android:id="@+id/layContest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/upcoming_match_row_radius1"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/contestName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="0.4"
+                android:textSize="15dp"
+                android:fontFamily="@font/avn_bold"
+                android:text="FanCode ECS Cyprus T10"
+                android:textColor="@color/black"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/selectbtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+android:visibility="gone"
+                android:layout_margin="10dp"
+                android:layout_weight="1.6"
+                android:text="@string/mony"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:background="@drawable/radius_header_color"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:background="@color/icon_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="vertical">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="10dp"
+        android:textSize="13dp"
+        android:fontFamily="@font/avn"
+
+        android:text="India Cricket Board" />
+</LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|left"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/teamimg"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/img"
+                        android:src="@drawable/cricket_1ball" />
+
+                    <TextView
+                        android:id="@+id/teamsortname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:text="IND"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/avn_bold"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center|bottom"
+                android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/timerunning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1h 22m"
+                    android:textSize="13dp"
+
+                    android:fontFamily="@font/avn"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/dateofmatch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Today, 7:00 pm"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/avn"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/teamnameb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/avn"
+                        android:text="Pak Cricket Board" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/teamsortnameb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="6dp"
+                        android:text="PAK"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/avn_bold"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/teambimg"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/img"
+                        android:src="@drawable/cricket_1ball" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/upcoming_match_row_radius2"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.3"
+            android:text="MEGA"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:background="@drawable/mega_bg_radius"
+            android:textColor="@color/green" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/rs"/>
+        <TextView
+            android:id="@+id/pricepool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+            android:textColor="@color/black"
+            android:fontFamily="@font/avn_bold"
+            android:text="20 Lakh"/>
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

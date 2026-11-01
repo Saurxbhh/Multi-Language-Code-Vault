@@ -1,0 +1,95 @@
+<html>
+<head><title>Adminisrator Login Window</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script language="javascript">
+function fun()
+{
+var id=document.getElementById("id").value;
+var psw=document.getElementById("password").value;
+//var url=document.getElementById("url").value;
+if(id=="admin" && psw=="admin")
+{
+	window.navigate("./adminfunctions.jsp");
+}
+else
+{
+	alert("Invalid Id/password");
+}
+}
+
+function rem()
+{
+//alert("erase");
+document.getElementById("id").value="";
+document.getElementById("password").value="";
+}
+</script>
+</head>
+<body background="20.jpg" >
+
+
+<div id="bg1">
+	<div id="header">
+		<h1>ONLINE ATTENDANCE MANAGEMENT SYSTEM</h1>
+		
+	</div>
+	<!-- end #header -->
+</div>
+<!-- end #bg1 -->
+<div id="bg2">
+	<div id="header2">
+		<div id="menu">
+			<ul>
+				<li><a href="login0.html">Administrator</a></li>
+				<li><a href="login1.html">Student</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<li><a href="login2.html">Faculty</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<li><a href="#">Home</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<div id="search">
+			<form method="get" action="#">
+				<fieldset>
+				
+				
+
+				</fieldset>
+			</form>
+		</div>
+		<!-- end #search -->
+	</div>
+	<!-- end #header2 -->
+</div>
+
+
+
+
+<form>
+<p align="center"><b><font size="5" face="Comic Sans MS">Student Information 
+System </font><font face="Comic Sans MS" size="2"><br>
+Administrator Zone</font></b></p>
+<table border="1" cellpadding="4" cellspacing="4" width="300" align="center" bordercolor="gray">
+<tr>
+<td style="color:white; background-color:gray"><b>Login </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.netspiderpk.cjb.com" target="_blank"><img src="lock.gif" alt="Protected by Net Spider Development" border="0"></a></td>
+</tr>
+<tr>
+<td style="color:gray">&nbsp;
+User ID&nbsp;&nbsp;&nbsp; :<input name="id" type="text" id="id" size="25" style="color:gray; background-color:silver; border-style:dotted; border-width:1px; border-color:gray">
+</td></tr>
+<tr><td style="color:gray">
+Password&nbsp;&nbsp;&nbsp; :<input name="pwd" type="password" id="password" size="25" style="color:gray; background-color:silver; border-style:dotted; border-width:1px; border-color:gray">
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#000000">
+<img border="0" src="login_spy.gif" width="115" height="35" name="url" id="url" onclick="fun()"></img>
+<a href="./login0.html" onclick="rem()"><img border="0" src="reset_spy.gif" width="115" height="35"></img></a>
+</td>
+</tr>
+<tr>
+<td bgcolor="black" align="center"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

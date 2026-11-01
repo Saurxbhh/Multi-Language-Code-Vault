@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DatabindMVVM</string>
+    <string name="mymatch">My Matche</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="user">User</string>
+    <string name="winners">Winners</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="live">Live</string>
+    <string name="complete">Complete</string>
+    <string name="rs">\u20B9</string>
+    <string name="mony">\u20B9 10</string>
+
+    <string name="prize">\u20B9 500</string>
+    <string name="chk">\u2713</string>
+    <string name="entrylable">Entry <strike>₹20</strike> </string>
+    <string name="joinfee">Join <strike>₹40</strike> ₹20</string>
+</resources>

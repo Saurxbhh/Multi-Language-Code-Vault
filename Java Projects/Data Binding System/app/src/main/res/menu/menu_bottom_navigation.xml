@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@mipmap/home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_schedules"
+        android:enabled="true"
+        android:icon="@mipmap/trophy"
+        android:title="@string/mymatch"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_music"
+        android:enabled="true"
+        android:icon="@mipmap/badge"
+        android:title="@string/winners"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/user"
+        android:enabled="true"
+        android:icon="@mipmap/user"
+        android:title="@string/user"
+        app:showAsAction="ifRoom" />
+</menu>

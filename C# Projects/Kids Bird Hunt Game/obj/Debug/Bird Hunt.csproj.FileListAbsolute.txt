@@ -1,0 +1,9 @@
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird_Shooter.MainFrame.resources
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird_Hunt.Properties.Resources.resources
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird Hunt.csproj.GenerateResource.cache
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird Hunt.csproj.CoreCompileInputs.cache
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\bin\Debug\Bird Hunt.exe.config
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\bin\Debug\Bird Hunt.exe
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\bin\Debug\Bird Hunt.pdb
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird Hunt.exe
+C:\Users\Mark\Desktop\Simple Bird Hunt Game in C#\obj\Debug\Bird Hunt.pdb
